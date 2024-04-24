@@ -1,0 +1,15 @@
+.notfound-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+  }
+  .retry-btn {
+    background-color: cornflowerblue;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+  }

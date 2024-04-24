@@ -1,0 +1,23 @@
+.nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  .logout-btn {
+    height: 30px;
+    width: 100px;
+    background-color: transparent;
+    cursor: pointer;
+    border-style: outset;
+    border-color: grey;
+    border-radius: 6px;
+    margin-right: 10px;
+  }
+  .nav-img {
+    margin-right: 10px;
+  }

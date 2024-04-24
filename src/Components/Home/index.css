@@ -1,0 +1,30 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .quiz-btn {
+    background-color: cornflowerblue;
+    color: white;
+    height: 30px;
+    width: 120px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .nxt-quiz-img {
+    height: 100px;
+    width: 100px;
+  }
+  @media(max-width: 768px) {
+    .nxt-quiz-img {
+      height: 200px;
+      width: 200px;
+    }
+  }
+  .error-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
